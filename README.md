@@ -110,7 +110,7 @@ From the confusion matrix we can see higher accuracy among the CN(0) target with
 
 #### Receiver Operating Characteristic (ROC) Curve
 We can use an ROC curve as well for logistic regression to evaluate the performance of the model at all classification thresholds. Target class 4 has the best classification compared to the model predicting the other classes as seen by its ROC curve having the greatest area under the curve. The discrepency between classifying target 4 compared to the other targets can be explained by how multiclass logistic regression works. The one-vs-rest scheme treats one class as the target variable to calculate the probabilities of each feature, but this requires treating the remaining 4 targets as a group. The poor ROC curves, especially for target 1 and target 3, indicate that logistic regression is not well-suited to achieve our goal of predicting one’s classification of Alzeihmers because the calculated probabilities are not representative of the ground truth.
-![alt text](https://github.gatech.edu/jkalloor6/AlzheimerDetection/blob/main/ltar01.png?raw=true)
+![alt text](https://github.com/felolivee/AlzheimersDetection/blob/main/ltar01.png?raw=true)
 ![alt text](https://github.gatech.edu/jkalloor6/AlzheimerDetection/blob/main/ltar23.png?raw=true)
 ![alt text](https://github.gatech.edu/jkalloor6/AlzheimerDetection/blob/main/ltar4.png?raw=true)
 
